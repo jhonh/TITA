@@ -1,0 +1,435 @@
+body {
+	font-family: 'Questrial', sans-serif;
+	 margin: 0;
+	 /* background: rgb(212, 212, 212); */
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: 50px;
+  }
+  
+  p {
+	text-align: center;
+  }
+  
+  h4{
+	text-align:center; 
+	line-height:80px;
+	font-weight:normal;
+  
+  }
+  .container {
+	max-width: 1050px;
+	width: 80%;
+	margin: 0 auto;
+  }
+figure {
+	margin: 0 !important;
+}  
+/*---- EL MENÚ -----*/
+#logo {
+    background-image: url(../img/logo_sneak.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    margin: 0;
+    width:200px;
+    float: none;
+    display: inline-block;
+    text-indent: -9999em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    min-width: 200px;
+}
+.navBar{
+	background-color: #fff; 
+	overflow: hidden;
+	height: 70px;
+	padding: 10px 0;
+  }
+  .menu {
+	  width: auto;
+	  float: right;
+	  padding-right:0;
+	  margin: 10px 0 0 0;
+  }
+  .menu li {
+	  list-style-type: none;
+	  display: inline-block;
+  }
+  .menu li a {
+	color:rgb(151, 151, 151);
+  }
+.brand{
+	background-color: #fff; 
+	overflow: hidden;
+	padding: 0 0 0 29px;
+  }
+  
+  /*Floats each item to the left with padding of 14 & 16 px.
+  Removes the underline with text decoration = none.*/
+  .navBar a{
+	float: right;
+	color: red;
+	padding: 10px;
+	margin: 0 10px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Tahoma;
+    letter-spacing: 3px;
+	
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+  }
+  .lupa {
+	cursor: pointer;
+	width: 25px;
+  }
+ 
+  #search {
+	border-color:transparent;
+	  /* display: none; */
+	  border-bottom: 1px solid rgb(129, 129, 129);
+	  display: none;
+	  height: 33px;
+	  float: left;
+	  padding:5px ;
+	  font-size: 18px;
+	  font-weight: bold;
+	  color: rgb(129, 129, 129);
+  }
+  #search:focus-visible {
+	background-color: -internal- transparent;
+	border-color:transparent !important;
+  }
+  .hover-search {
+	vertical-align: top;
+  }
+  .button-search {
+	  border: none;
+	  padding:10px 20px;
+	  margin: 0;
+	  font-size: 17px;
+	  cursor: pointer;
+	  background-color:transparent;
+  }
+  .button-search i {
+	  color: #ff5672 !important;
+  }
+  .hover-search:hover > #search {
+	display: block;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+  }
+  #search:focus {
+	  display: block !important;
+  }
+  .search {
+	  display: none;
+  }
+  .search2 {
+	  display: block !important;
+  }
+  /*Background color change during hover state*/
+  .navBar a:hover{
+	background-color: #ff5672;
+	color: #fff;
+  }
+  
+  /*Hides the menu Icon which will show when the nav needs to be responsive*/
+  .navBar .icon{
+	display: none;
+  }
+  .content-slide {
+	  position: relative;
+	  /* background-color:#ff5672;
+	  height: 600px; */
+  }
+  .content-slide .content-tittles{
+	bottom: 40%;
+	margin: 0 auto;
+	left:0;
+	right: 0;
+	position: absolute;
+	color: #fff;
+	width: 100%;
+}
+  .aslide {
+	  padding:20px;
+	  background-color: #fff;
+	  color:#ff5672;
+	  text-decoration: none;
+	  margin: 0 auto;
+	  left:0;
+	  right: 0;
+	  position: absolute;
+	  width: 100px;
+	  text-align: center;
+	  margin-top: 50px;
+  }
+  .content-slide img{
+	width: 100%;
+	/* height: 650px; */
+}
+  .content-slide h1, .content-slide h2{
+	  top: 10%;
+	  color: #fff;
+	  text-align: center;
+  }
+  .content-tabs {
+	 text-align: center;
+	 width: 100%;
+	 float: left;
+	 padding:0;
+  }
+  .dn {
+	  display: none;
+  }
+  .content-tabs li{
+	  padding: 20px;
+	  list-style-type: none;
+	  display: inline-block;
+	  font-size: 20px;
+	  color:#ff5672;
+	  cursor: pointer;
+  }
+  .content-tabs li a {
+		float: right;
+		color: #707070;
+		padding: 10px;
+		margin: 0 10px;
+		text-decoration: none;
+		font-size: 14px;
+		font-family: Tahoma;
+		letter-spacing: 3px;
+		-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+  .content-tabs li a:hover{
+	background-color: #ff5672;
+	color: #fff;
+  }
+  .content-tabs li a:active:before {
+    background-color: blue;
+}
+  .content-tabs li i{
+	color:#ff5672;
+}
+
+.content-tabs2 {
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding: 50px 0 0;
+}
+.content-tabs2 li{
+  padding: 20px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  color:#ff5672;
+  cursor: pointer;
+}
+.tabcontent {
+	width: 100%;
+	float: left;
+}
+
+
+
+  /*Set your custom screen width here replacing 700*/
+  @media (max-width: 700px){
+  /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
+	.navBar a:not(:first-child){
+	  display: none;
+	}
+  /*Brings the menu icon into view and floats it to the right*/
+	.navBar a.icon{
+	  display: block; float: right;
+	  
+	  top: 15px;
+	  font-size: 22px;
+	}
+	
+  /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
+	.navBar.responsive {
+	  position: relative;
+	  height: auto;
+	}
+	.navBar.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 15px;
+		font-size: 22px;
+	}
+	
+  /*Removes the originally set float and brings them to view*/
+	.navBar.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+  
+
+/*---- LAS GRIDS -----*/
+
+  .grids { /* grids container */
+	  -webkit-column-count: 4;
+	-moz-column-count:4;
+	column-count: 4;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
+	 /* margin: 1.5em; */
+	  padding: 0;
+	  -moz-column-gap: 1.5em;
+	  -webkit-column-gap: 1.5em;
+	  column-gap: 1.5em;
+	  font-size: .85em;
+  }
+  .item {
+	  position: relative;
+	  overflow: hidden;
+	  display: inline-block;
+	  background: #f6f6f6;
+	  padding: .5em;
+	  margin: 0 0 1em;
+	  width: 100%;
+	  -webkit-transition:1s ease all;
+	  box-sizing: border-box;
+  }
+  .item img{max-width:100%;width:100%;}
+  .item .logo-brand{max-width:70%;padding:20px 0;border-bottom: 1px solid #fff;}
+  .content-overlay {
+	  position: absolute;
+	  top: 0;
+	  left: -100%;
+	  width: 100%;
+	  height: 100%;
+	  background-color: rgb(255, 86, 114,.8);
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-wrap: wrap;
+	  align-content: center;
+	  -webkit-transition: all .3s;
+	  -moz-transition: all .3s;
+	  -o-transition: all .3s;
+	  transition: all .3s;
+  }
+  .item:hover .content-overlay {
+	  left: 0;
+	  top: 0;
+  }
+  .content-overlay h3{
+	color: #fff;
+	width: 100%;
+	float: left;
+	text-align:center;
+  }
+  .block {
+	  width: 100%;
+	  float: left;
+	  text-align: center;
+	  padding: 30px 0;
+	  margin: 20px 0;
+  }
+  .social {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 30px 0;
+	margin: 20px 0;
+}
+.social {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+.social a {
+	color:#c2cfd7;
+	text-decoration: none;
+	padding: 10px;
+}
+  .content-overlay p{
+	color: #fff;
+	width: 100%;
+	float: left;
+	padding: 20px 0 0 0;
+  }
+  .btn-more {
+	color: #fff;
+	background-color: rgb(255, 86, 114);
+	padding: 20px;
+	text-align:center;
+	border: none;
+	font-size: 13px;
+    letter-spacing: 5px;
+	cursor: pointer;
+  }
+  footer {
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+footer p {
+	color: #c3d0d8;
+}
+footer p span{
+	color: rgb(255, 86, 114);
+}
+
+  @media only screen and (max-width: 320px) {
+	  .grids {
+		  -moz-column-count: 1;
+		  -webkit-column-count: 1;
+		  column-count: 1;
+	  }
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 768px){
+	  .grids {
+		  -moz-column-count: 1;
+		  -webkit-column-count: 1;
+		  column-count: 1;
+	  }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1200px){
+	  .grids {
+		  -moz-column-count: 2;
+		  -webkit-column-count: 2;
+		  column-count: 2;
+	  }
+  }
+  @media only screen and (min-width: 1201px) {
+	  .grids {
+		  -moz-column-count: 3;
+		  -webkit-column-count: 3;
+		  column-count: 3;
+	  }
+	  .brand {
+		  padding-left:200px;
+	  }
+	  .menu {
+		padding-right: 200px;
+	  }
+  }
